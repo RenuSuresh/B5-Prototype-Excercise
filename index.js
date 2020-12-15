@@ -37,11 +37,10 @@ function Airplane(name) {
           + It should return a string with `name` and `age`. Example: "Mary, 50"
   */
   
- function Person() {
-    
-  }
- 
- 
+function Person(name,age) {
+  
+}
+
 
   
   
@@ -61,10 +60,15 @@ function Airplane(name) {
           + The `drive` method should return a string "I ran out of fuel at x miles!" x being `odometer`.
   */
   
- function Car() {
-    
-  }
-  
+
+function Car(model, milesPerGallon) {
+   
+
+}
+
+
+
+
   
   /*
     TASK 3
@@ -73,10 +77,10 @@ function Airplane(name) {
       - Besides the methods on Person.prototype, babies have the ability to `.play()`:
           + Should return a string "Playing with x", x being the favorite toy.
   */
- function Baby() {
-   
-  }
- 
+ function Baby(favoriteToy) {
+  
+}
+
   
   /* 
     TASK 4
